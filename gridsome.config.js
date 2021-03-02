@@ -1,3 +1,4 @@
+
 // This is where project configuration and plugin options are located.
 // Learn more: https://gridsome.org/docs/config
 
@@ -12,7 +13,7 @@ module.exports = {
       options: {
         apiURL: process.env.GRIDSOME_API_URL,
         queryLimit: 1000, // Defaults to 100
-        contentTypes: ['test-data'],
+        // contentTypes: ['test-data'],
         singleTypes: ['blog-home-info'],
         // Possibility to login with a Strapi user,
         // when content types are not publicly available (optional).
